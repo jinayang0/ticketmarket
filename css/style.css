@@ -46,7 +46,7 @@ ul {
 body {
   font-family: "pretendard";
   background-color: #1d1d1d;
-  font-size: 100%;
+  font-size: 130%;
   line-height: 130%;
   color: #fff;
 }
@@ -74,7 +74,7 @@ a#top_btn {
   box-sizing: border-box;
   z-index: 999;
   border: 1px solid #fff;
-  background-color: #c70b16;
+  background-color: #c70b1c;
   color: #fff;
 }
 
@@ -573,6 +573,10 @@ footer {
 
 /*태블릿(600~ 1199)*/
 @media (min-width: 600px) and (max-width: 1199px) {
+  body {
+    font-size: 100%;
+  }
+
   .left {
     padding: 5%;
   }
