@@ -69,7 +69,7 @@ a#top_btn {
   display: none;
   width: 65px;
   height: 65px;
-  padding-top: 18px;
+  padding-top: 16px;
   text-align: center;
   box-sizing: border-box;
   z-index: 999;
@@ -573,10 +573,6 @@ footer {
 
 /*태블릿(600~ 1199)*/
 @media (min-width: 600px) and (max-width: 1199px) {
-  body {
-    font-size: 100%;
-  }
-
   .left {
     padding: 5%;
   }
